@@ -1,7 +1,7 @@
 import re
 from typing import Optional
 
-from bsedic.pbic3g.containerization.container_file import (
+from bsedic.pbif.containerization.container_file import (
     get_generic_dockerfile_template,
     pull_substitution_keys_from_document,
 )

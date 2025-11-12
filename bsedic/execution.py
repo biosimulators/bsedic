@@ -4,10 +4,10 @@ import shutil
 from spython.main.parse.parsers import DockerParser  # type: ignore[import-untyped]
 from spython.main.parse.writers import SingularityWriter  # type: ignore[import-untyped]
 
-from bsedic.pbic3g.containerization.container_constructor import (
+from bsedic.pbif.containerization.container_constructor import (
     formulate_dockerfile_for_necessary_env,
 )
-from bsedic.pbic3g.local_registry import load_local_modules
+from bsedic.pbif.local_registry import load_local_modules
 from bsedic.utils.experiment_archive import extract_archive_returning_pbif_path
 from bsedic.utils.input_types import (
     ContainerizationEngine,

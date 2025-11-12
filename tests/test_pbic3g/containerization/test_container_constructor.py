@@ -1,6 +1,6 @@
 import tempfile
 
-from bsedic.pbic3g.containerization.container_constructor import (
+from bsedic.pbif.containerization.container_constructor import (
     ProgramArguments,
     convert_dependencies_to_installation_string_representation,
     determine_dependencies,

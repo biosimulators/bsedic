@@ -1,6 +1,6 @@
 from typing import Any, TypeAlias, Union
 
-from bsedic.bscram.data_structure import ExperimentEntityList
+from bsedic.sed.data_structure import ExperimentEntityList
 
 
 class SedCompilerSettings:
